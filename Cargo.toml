@@ -1,0 +1,13 @@
+[package]
+name = "halo2-hash-benching"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.4"
+pasta_curves = "0.2.1"
+ff = "0.11.0"
+bitvec = "1.0.0"
+halo2 = { git = "https://github.com/zcash/halo2", rev = "6630a143c1895dc7d608411fd9686cf29e637924" }
